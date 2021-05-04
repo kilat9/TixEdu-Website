@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tix Edu - Registration</title>
+
+	 <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style type="text/css">
+
+    body{
+        background: url('assets/img/slide/slide-2.jpg');
+        background-size: cover;
+    }
+      
+    .loginbox{
+        width: 500px;
+        height: 800px;
+        padding: 30px 30px;
+        top: 60%;
+    }
+
+  </style>
+
+</head>
+<body>
+	<div class="loginbox">
+    <a href="login.html"><button type="submit">< Back</button></a>
+    <h1>Register New Student Account</h1>
+    <form method="GET" action="registerStudent.php" class="registration">
+      <table>
+
+        <tr>
+          <th><label>Name <th>:</th></label></th> 
+          <th><input type = "text" name = "full_name" required ="true" /> </th>
+        </tr>
+
+        <tr>
+          <th><label>Username <th>:</th></label></th> 
+          <th><input type = "text" name = "username" required ="true" /> </th>
+        </tr>
+
+        <tr>
+          <th><label>Password <th>:</th></label></th> 
+          <th><input type = "text" name = "input1" required ="true" /> </th>
+        </tr>
+
+        <tr>
+          <th><label>Confirm Password <th>:</th></label></th> 
+          <th><input type = "text" name = "confirmPass" required ="true" /> </th>
+        </tr>
+
+        <tr>
+          <th><label>Phone Number <th>:</th></label></th>
+          <th><input type = "tel" name = "phone_num" required ="true" pattern="[0-9]{10-12}"/></th>
+        </tr>
+
+        <tr>
+          <th><label>Email <th>:</th></label> </th>
+          <th><input type = "Email" name = "email" required="required"/>
+          </th>
+        </tr>
+
+        <tr>
+          <th><label>Home address <th>:</th></label></th>
+            <th><textarea name= "home_address" required = "true"></textarea></th>
+        </tr>
+
+        <tr>
+          <th><label>Gender <th>:</th></label> </th>
+          <th>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+        </th>
+        </tr>
+
+        <tr>
+        <th><label>Age <th>:</th></label> </th>
+          <th><input type = "Number" name = "age" required="required" min="10" style="width: 100px" />
+          </th>
+        </tr>
+
+        <tr>
+          <th><label>Date of Birth <th>:</th></label></th>
+          <th><input type="Date" name="dob"></th>
+        </tr>
+
+      </table>
+
+      <center>
+      <input type="reset" value="Reset">
+      <input type="Submit" value="Register">
+      </center>
+    </form>
+  </div>
+
+</body>
+</html>

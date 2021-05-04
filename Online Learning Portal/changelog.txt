@@ -1,0 +1,88 @@
+[Jo] {8/10/2020 4:10p.m}
+-added editLecturer.php
+-added editAdmin.php
+-added updateLecturer.php
+-added updateAdmin.php
+-added deleteLecturer.php
+-added deleteAdmin.php
+
+-Added Update and Delete Feature for Lecturer and admin
+
+
+
+[Jo] {8/10/2020 10:10a.m}
+-added viewData.php
+-added editStudent.php
+-added updateStudent.php
+-added deleteStudent.php
+
+-modified login.html
+-modified login.php
+-modified RegistrationStudent.html
+-modified regustrationStudent.pho
+
+-Login fixed
+-Registration fixed
+-Added View Data Featured
+-Added Update and Delete Feature for Students
+
+
+
+
+[K15H3N]{6/10/2020 8.17PM}
+(style.css) - updates with css for courses [updated]
+(courses.php) - course navigation [added]
+(course-page.html) -> (course-page.php)
+
+
+(login.html) [Jo] {1/10/2020 6:24p.m}
+-added login.html
+-added login.php
+-added register.html
+-added register.php
+-added conn1.php
+
+-Login function
+-Registration Function
+
+
+(team.html)[K15H3N](30/9/2020 11.15PM)
+- updated with latest info along with inmages under assets>img>team
+
+(style.css)[K15H3N](29/9/2020 11.50PM)
+- updated to complement courses-page.html
+
+(courses-page.html)[K15H3N](29/9/2020 11.50PM)
+
+(contact.html) [K15H3N](13/9/2020 5:56PM)
+- updated information
+
+(login.html) [K15H3N](13/9/2020 5:56PM)
+- Changed logo for HTML & CSS
+
+(login.html) [Jo] {11/9/2020}
+-Added login page
+-loginAvatar has been addded inside assets/img
+
+(style.css) [Jo] {11/9/2020}
+-Changed colour scheme to be blue
+- Changed hover over to be light blue
+
+(index.html) [K15H3N] {12:14 12/9/2020}
+- Changed title
+- Changed Services to Courses - need to change the other files Header
+- Pushed up Services & Clients to above About
+- Edited Featured Section
+
+
+(index.html) [Jo] {12:52p.m 13/9/2020}
+-Changed header contact and email info
+-Chnaged animation caption to TIX EDU
+- Our Services has been changed to Our Courses
+- Added 6 Courses with description
+-Changed footer location and description to match TIX EDU
+
+
+Update above ^^^
+(Filename) [Name] {Time}
+- changes made

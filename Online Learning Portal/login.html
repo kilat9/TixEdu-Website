@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TixEdu - Login</title>
+
+	 <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<style type="text/css">
+    body{
+        background: url('assets/img/slide/slide-1.jpg');
+        background-size: cover;
+    }
+
+    button
+    {
+        border: none;
+        outline: none;
+        width: 270px;
+        height: 40px;
+        background: #3498DB;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 50px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    button:hover
+    {
+        cursor: pointer;
+        background: #2BA8E5;
+        color: white;
+    }
+</style>
+
+<body>
+    <div>
+        <a href="index.php"><button type="submit">< Return to Main Page</button></a>
+        <div class="loginbox">
+            <img src="assets/img/loginAvatar.png" class="avatar">
+            <h1>Login Here</h1>
+
+            
+            <form method="POST" action= 'login.php'>
+
+                <p>Select Role :</p>
+                <select name="logrole" required="true" >
+                    <option value="student_t">Student</option>
+                    <option value="lecturer_t">Lecturer</option>
+                    <option value="administrator_t">Administrator</option>
+                </select>
+
+                <br>
+                <br>
+
+                <p>Username</p>
+                <input type="text" name="logname" placeholder="Enter Username" required="true">
+                <p>Password</p>
+                <input type="password" name="logpass" placeholder="Enter Password" required="true">
+                <input type="submit" name="" value="Login">
+            </form>
+            <center><a href = registerStudent.html >Register new account</a></center>
+        </div>
+    </div>
+</body>
+</html>
+
